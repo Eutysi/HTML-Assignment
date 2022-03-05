@@ -1,7 +1,152 @@
 /* Our CSS file. */
 
-
 .container, .content {
-width: 100%;
-height: 100%;
+	width: 100%;
+	height: 100%;
+	}
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.header1 {
+    height: 70px;
+	width: 100%;
+    background-color: rgb(3, 38, 44);
+}
+.logo{
+	width: 40px;
+	height: 40px;
+	margin-right: 1150px;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+
+.top-right-menu{
+	float: right;
+	
+}
+li{ 
+	
+	display: inline-block;
+	padding-right: 20px;
+	color: green;
+	font-weight: bolder;
+	position: relative;
+	bottom: 25px;
+	
+}
+
+
+#hero{
+	background-image: url(./images/poster-top.jpg);
+	background-size: cover;
+	height: 400px;
+	text-align: center;
+	padding-left: 20px;
+	
+
+}
+h1{
+	font: 2em Fantasy;
+	font-style: bold;
+	color: green;
+	letter-spacing: 3px;
+	padding: 13px;
+}
+.hero-pic{
+	border-radius: 50%;
+	width: 250px;
+	border: 2px solid black;
+}
+.top-button{
+	padding: 5px;
+	position: relative;
+	top: 40px;
+	right: 180px;
+	font-style: bold;
+	color: green;
+}
+.dog1, .dog2, .dog3 {
+	border-radius: 50%;
+	width: 120px;
+	border: 2px solid brown;
+
+}
+.three-col{
+	position: relative;
+	display: inline-block;
+	text-align: center;
+	width: 30%;
+	overflow-wrap: break-word;
+	padding-left: 30px;
+}
+h4{
+	margin-top: 25px;
+	margin-bottom: 20px;
+	color: green;
+	font-style: bold;
+}
+p{
+	margin-top: 10px;
+	margin-bottom: 30px;
+	padding: 2px;
+	margin-right: 1px;
+}
+.footer{
+	background-color: rgb(3, 38, 44);
+	text-align: center;
+	color: white;
+}
+.img1{
+	width: 40px;
+	height: 40px;
+	margin: 14px;
+}
+.bottomline{
+	padding-top: 15px;
+	margin: 10px;
+	letter-spacing: 3px;
+}
+.mid-button, .top-button{
+	border: 2px solid black;
+	
 }
